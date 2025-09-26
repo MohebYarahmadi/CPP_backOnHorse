@@ -3,10 +3,12 @@ using namespace std;
 
 int main() {
     char charInput;
-    
-    cout << "Please enter a character: ";
+    cout << "Type a character: ";
     cin >> charInput;
     
-    cout << "The character you inputted is: " << charInput << endl;
+    int value = charInput;
+    
+    cout << "The ascii value of " << charInput << " is " << value << endl;
+    
     return 0;
 }

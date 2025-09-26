@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ can_i_c_now - Debug ]----------"
-	@cd "01_AreYouSmarter" && "$(MAKE)" -f  "can_i_c_now.mk"
+	@echo "----------Building project:[ told_you_once - Debug ]----------"
+	@cd "told_you_once" && "$(MAKE)" -f  "told_you_once.mk"
 clean:
-	@echo "----------Cleaning project:[ can_i_c_now - Debug ]----------"
-	@cd "01_AreYouSmarter" && "$(MAKE)" -f  "can_i_c_now.mk" clean
+	@echo "----------Cleaning project:[ told_you_once - Debug ]----------"
+	@cd "told_you_once" && "$(MAKE)" -f  "told_you_once.mk" clean
