@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ Funtions - Debug ]----------"
-	@cd "Funtions" && "$(MAKE)" -f  "Funtions.mk"
+	@echo "----------Building project:[ make_game - Debug ]----------"
+	@cd "make_game" && "$(MAKE)" -f  "make_game.mk"
 clean:
-	@echo "----------Cleaning project:[ Funtions - Debug ]----------"
-	@cd "Funtions" && "$(MAKE)" -f  "Funtions.mk" clean
+	@echo "----------Cleaning project:[ make_game - Debug ]----------"
+	@cd "make_game" && "$(MAKE)" -f  "make_game.mk" clean

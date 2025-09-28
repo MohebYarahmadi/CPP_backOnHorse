@@ -3,7 +3,8 @@
   <Project Name="can_i_c_now" Path="01_AreYouSmarter/01_AreYouSmarter.project" Active="No"/>
   <Project Name="if_sandwich" Path="if_sandwich/if_sandwich.project" Active="No"/>
   <Project Name="told_you_once" Path="told_you_once/told_you_once.project" Active="No"/>
-  <Project Name="Funtions" Path="Funtions/Funtions.project" Active="Yes"/>
+  <Project Name="Funtions" Path="Funtions/Funtions.project" Active="No"/>
+  <Project Name="make_game" Path="make_game/make_game.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
@@ -11,6 +12,7 @@
       <Project Name="if_sandwich" ConfigName="Debug"/>
       <Project Name="told_you_once" ConfigName="Debug"/>
       <Project Name="Funtions" ConfigName="Debug"/>
+      <Project Name="make_game" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
@@ -18,6 +20,7 @@
       <Project Name="if_sandwich" ConfigName="Release"/>
       <Project Name="told_you_once" ConfigName="Release"/>
       <Project Name="Funtions" ConfigName="Release"/>
+      <Project Name="make_game" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
